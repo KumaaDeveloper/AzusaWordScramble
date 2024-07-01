@@ -5,4 +5,5 @@ branches:
 projects:
   AzusaWordScramble:
     path: ""
+    icon: "icon.png"
 ...
