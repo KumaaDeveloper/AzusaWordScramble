@@ -8,9 +8,9 @@ commands:
   wordscramble:
     description: Enable or disable the WordScramble game
     usage: /wordscramble <on|off>
-    permission: wordscramble.command
+    permission: azusawordscramble.command
 permissions:
-  wordscramble.command:
+  azusawordscramble.command:
     description: Allows the player to use the /wordscramble command
     default: op
 dependencies:
