@@ -1,0 +1,17 @@
+name: AzusaWordScramble
+version: 1.0.0
+api: [5.0.0]
+main: KumaDev\WordScramble\Main
+author: KumaDeveloper
+description: Plugin to give random word order and get rewards
+commands:
+  wordscramble:
+    description: Enable or disable the WordScramble game
+    usage: /wordscramble <on|off>
+    permission: wordscramble.command
+permissions:
+  wordscramble.command:
+    description: Allows the player to use the /wordscramble command
+    default: op
+dependencies:
+  - libPiggyEconomy

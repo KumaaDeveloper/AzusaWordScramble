@@ -1,0 +1,20 @@
+# Configuration for WordScramble plugin
+
+scramble_interval: 60
+
+# Message when the player successfully answers the wordscramble
+scramble_completion_message: "§aCongratulations! §e{player} §agot the wordscramble right §6{money} §aMoney"
+
+# Message when no one answers the wordscramble
+no_answer_message: "§cNo one answered wordscramble, move on to the next wordscramble..."
+
+# Delay when scramble is missed or answered
+scramble_delay_solved: 5
+
+# Rewards when players successfully answer wordscramble
+prize_min: 1000
+prize_max: 10000
+
+# Economy you are using (Must use LibPiggyEconomy)
+Economy:
+  type: "bedrockeconomy" # Change this to your specific economy provider if needed (bedrockeconomy/economyapi)
