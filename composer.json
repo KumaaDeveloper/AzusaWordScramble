@@ -1,0 +1,20 @@
+{
+    "name": "kumadev/azusawordscramble",
+    "description": "Plugin to give randomised word stacking questions and get monetary rewards",
+    "type": "project",
+    "license": "Apache-2.0 license",
+    "require": {
+        "dapigguy/libpiggyeconomy": "dev-master"
+    },
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/DaPigGuy/libPiggyEconomy.git"
+		}
+	],
+    "autoload": {
+        "psr-4": {
+            "KumaDev\\AzusaWordScramble\\": "src/"
+        }
+    }
+}
