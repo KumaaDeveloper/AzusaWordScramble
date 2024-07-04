@@ -6,7 +6,7 @@ author: KumaDeveloper
 description: Plugin to give random word order and get rewards
 commands:
   wordscramble:
-    description: Enable or disable the WordScramble game
+    description: Enable or disable the WordScramble
     usage: /wordscramble <on|off>
     permission: azusawordscramble.command
 permissions:
