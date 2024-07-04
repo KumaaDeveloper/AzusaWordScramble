@@ -13,5 +13,4 @@ permissions:
   azusawordscramble.command:
     description: Allows the player to use the /wordscramble command
     default: op
-dependencies:
-  - libPiggyEconomy
+softdepend: [EconomyAPI, BedrockEconomy]
