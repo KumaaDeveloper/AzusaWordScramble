@@ -3,7 +3,7 @@ AzusaWordScramble is a Pocketmine plug-in that works to provide word stacking qu
 
 ## Features
 - The question will be broadcast and the player must correctly answer the word stacking question
-- There are already 250+ words about minecraft, can be set in word.yml
+- There are already 300+ words about minecraft, can be set in word.yml
 - Custom message
 - Custom prize
 - Custom economy
@@ -16,12 +16,12 @@ Commands | Default | Permission
 
 ## Configuration
 ```yaml
-# Configuration for AzusaWordScramble plugin
+# Configuration for WordScramble plugin
 
 scramble_interval: 60
 
 # Message when the player successfully answers the wordscramble
-scramble_completion_message: "§aCongratulations! §e{player} §agot the wordscramble right §6{money} §aMoney"
+scramble_completion_message: "§e{player} §fanswers §a\"{answer}\" §fand gets a prize of §6{money} §fMoney"
 
 # Message when no one answers the wordscramble
 no_answer_message: "§cNo one answered wordscramble, move on to the next wordscramble..."
