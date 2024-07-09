@@ -169,11 +169,15 @@ class Main extends PluginBase implements Listener {
                 $player = $event->getPlayer();
                 $reward = rand($this->config->get("prize_min"), $this->config->get("prize_max"));
                 $this->addMoney($player, $reward);
-                $this->getServer()->broadcastMessage(str_replace("{player}", $player->getName(), str_replace("{money}", $reward, $this->config->get("scramble_completion_message"))));
+                $this->getServer()->broadcastMessage(str_replace(
+                    ["{player}", "{answer}", "{money}"],
+                    [$player->getName(), $this->currentWord, $reward],
+                    $this->config->get("scramble_completion_message")
+                ));
                 $this->currentWord = null;
                 $event->cancel();
 
-                // Play level-up sound effect for all players
+                // Broadcast level-up sound effect for all players
                 $this->broadcastSound($player, "random.levelup");
 
                 // Cancel the current task to prevent the no-answer message from appearing
@@ -214,9 +218,9 @@ class Main extends PluginBase implements Listener {
             $this->setCurrentWord($word['original']);
             $this->setCurrentQuestionStartTime(time());
 
-            // Play bell sound effect
+            // Broadcast bell sound effect for all players
             foreach ($this->getServer()->getOnlinePlayers() as $player) {
-                $this->playSound($player, "note.bell");
+                $this->broadcastSound($player, "note.bell");
             }
 
             // Schedule the no-answer message task
@@ -258,9 +262,9 @@ class Main extends PluginBase implements Listener {
                         $this->plugin->getServer()->broadcastMessage($this->plugin->getConfigData()->get("no_answer_message"));
                         $this->plugin->setCurrentWord(null);
 
-                        // Play bass attack sound effect
+                        // Broadcast bass attack sound effect for all players
                         foreach ($this->plugin->getServer()->getOnlinePlayers() as $player) {
-                            $this->plugin->playSound($player, "note.bassattack");
+                            $this->plugin->broadcastSound($player, "note.bassattack");
                         }
 
                         // Schedule the next question after the delay
@@ -283,21 +287,6 @@ class Main extends PluginBase implements Listener {
         }, 20 * $this->getConfigData()->get("scramble_interval")));
     }
 
-    public function getWords(): array {
-        return $this->words;
-    }
-
-    public function playSound(Player $player, string $soundName): void {
-        $pk = new PlaySoundPacket();
-        $pk->soundName = $soundName;
-        $pk->x = $player->getPosition()->getX();
-        $pk->y = $player->getPosition()->getY();
-        $pk->z = $player->getPosition()->getZ();
-        $pk->volume = 1;
-        $pk->pitch = 1;
-        $player->getNetworkSession()->sendDataPacket($pk);
-    }
-
     public function broadcastSound(Player $originPlayer, string $soundName): void {
         $pk = new PlaySoundPacket();
         $pk->soundName = $soundName;
@@ -310,5 +299,9 @@ class Main extends PluginBase implements Listener {
         foreach ($this->getServer()->getOnlinePlayers() as $player) {
             $player->getNetworkSession()->sendDataPacket($pk);
         }
+    }
+
+    public function getWords(): array {
+        return $this->words;
     }
 }

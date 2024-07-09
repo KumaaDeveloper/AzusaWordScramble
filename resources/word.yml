@@ -1,251 +1,300 @@
 words:
-- zombie
-- skeleton
-- creeper
-- enderman
-- silverfish
-- witch
-- pillager
-- ravager
-- blaze
-- ghast
-- magma cube
-- slime
-- spider
-- cave spider
-- zombie pigman
-- wither skeleton
-- drowned
-- phantom
-- dirt
-- grass block
 - stone
+- grass block
+- dirt
 - cobblestone
-- wood
-- oak log
-- spruce log
-- birch log
-- jungle log
-- acacia log
-- dark oak log
-- leaves
-- oak leaves
-- spruce leaves
-- birch leaves
-- jungle leaves
-- acacia leaves
-- dark oak leaves
+- wooden plank
+- sapling
+- bedrock
+- water
+- lava
 - sand
 - gravel
 - gold ore
 - iron ore
 - coal ore
-- diamond ore
-- redstone ore
-- lapis lazuli ore
-- emerald ore
-- obsidian
-- water
-- lava
-- glass
-- oak planks
-- spruce planks
-- birch planks
-- jungle planks
-- acacia planks
-- dark oak planks
-- brick
-- tnt
-- bookshelf
-- mossy cobblestone
-- torch
-- oak door
-- iron door
-- bed
-- oak crafting table
-- furnace
-- ladder
-- chest
-- redstone
-- redstone lamp
-- noteblock
-- jukebox
-- piston
-- sticky piston
-- web
-- tall grass
-- fern
-- dead bush
+- log
+- leaves
 - sponge
-- glass pane
-- oak stairs
-- iron bars
-- glass bottle
-- gold ingot
-- iron ingot
-- coal
-- diamond
-- emerald
-- stick
-- bowl
-- mushroom
-- red mushroom
-- brown mushroom
-- gold nugget
-- flint
-- pumpkin
-- cake
-- repeater
+- glass
+- lapis lazuli ore
+- lapis lazuli block
+- dispenser
+- sandstone
+- note block
+- bed
 - powered rail
 - detector rail
+- sticky piston
+- cobweb
+- tall grass
+- dead bush
+- piston
+- wool
+- dandelion
+- poppy
+- brown mushroom
+- red mushroom
+- block of gold
+- block of iron
+- stone slab
+- bricks
+- tnt
+- bookshelf
+- moss stone
+- obsidian
+- torch
+- mob spawner
+- oak wood stairs
+- chest
+- diamond ore
+- block of diamond
+- crafting table
+- farmland
+- furnace
+- sign
+- oak door
+- ladder
+- rail
+- cobblestone stairs
+- lever
+- stone pressure plate
+- wooden pressure plate
+- redstone ore
+- redstone torch
+- stone button
+- snow
+- ice
+- snow block
+- cactus
+- clay
+- jukebox
+- oak fence
+- pumpkin
+- netherrack
+- soul sand
+- glowstone
+- jack o'lantern
+- trapdoor
+- stone bricks
+- brown mushroom block
+- red mushroom block
+- iron bars
+- glass pane
+- melon
+- vine
+- oak fence gate
+- brick stairs
+- stone brick stairs
+- mycelium
+- lily pad
+- nether brick
+- nether brick fence
+- nether brick stairs
+- enchantment table
+- end portal frame
+- end stone
+- dragon egg
+- redstone lamp
+- wooden slabs
+- sandstones
+- emerald ore
+- block of emerald
+- spruce wood stairs
+- birch wood stairs
+- jungle wood stairs
+- command block
+- beacon
+- cobblestone wall
+- flower pot
+- carrots
+- potatoes
+- wooden button
+- mob head
+- anvil
+- trapped chest
+- light weighted pressure plate
+- heavy weighted pressure plate
+- comparator
+- daylight sensor
+- block of redstone
+- nether quartz ore
+- hopper
+- block of quartz
+- quartz stairs
+- activator rail
+- dropper
+- stained clay
+- stained glass pane
+- acacia wood stairs
+- dark oak wood stairs
 - slime block
 - barrier
 - iron trapdoor
 - prismarine
 - sea lantern
 - hay bale
-- white terracotta
-- orange terracotta
-- magenta terracotta
-- light blue terracotta
-- wooden sword
-- wooden pickaxe
-- wooden axe
-- wooden shovel
-- wooden hoe
-- stone sword
-- stone pickaxe
-- stone axe
-- stone shovel
-- stone hoe
-- iron sword
-- iron pickaxe
-- iron axe
-- iron shovel
-- iron hoe
-- diamond sword
-- diamond pickaxe
-- diamond axe
-- diamond shovel
-- diamond hoe
-- golden sword
-- golden pickaxe
-- golden axe
-- golden shovel
-- golden hoe
-- apple
-- baked potato
-- bread
-- carrot
-- cooked beef
-- cooked chicken
-- cooked fish
-- cooked mutton
-- cooked porkchop
-- cooked rabbit
-- cookie
+- carpet
+- hardened clay
+- coal block
+- packed ice
+- sunflower
+- lilac
+- rose bush
+- peony
+- red sand
+- red sandstone
+- red sandstone stairs
+- double red sandstone slab
+- smooth red sandstone
+- chiseled red sandstone
+- granite
+- polished granite
+- diorite
+- polished diorite
+- andesite
+- polished andesite
+- grass path
+- end rod
+- chorus plant
+- chorus flower
+- purpur block
+- purpur pillar
+- purpur stairs
+- purpur slab
+- end stone bricks
 - beetroot
-- beetroot soup
-- melon slice
-- mushroom stew
-- potato
-- pumpkin pie
-- rabbit stew
-- steak
-- arrow
-- bow
-- bucket
-- compass
-- ender pearl
-- fishing rod
+- grass path
+- structure block
+- structure void
+- observer
+- shulker box
+- white shulker box
+- orange shulker box
+- magenta shulker box
+- light blue shulker box
+- yellow shulker box
+- lime shulker box
+- pink shulker box
+- gray shulker box
+- light gray shulker box
+- cyan shulker box
+- purple shulker box
+- blue shulker box
+- brown shulker box
+- green shulker box
+- red shulker box
+- black shulker box
+- white concrete
+- orange concrete
+- magenta concrete
+- light blue concrete
+- yellow concrete
+- lime concrete
+- pink concrete
+- gray concrete
+- light gray concrete
+- cyan concrete
+- purple concrete
+- blue concrete
+- brown concrete
+- green concrete
+- wooden sword
+- stone sword
+- iron sword
+- diamond sword
+- golden sword
+- wooden pickaxe
+- stone pickaxe
+- iron pickaxe
+- diamond pickaxe
+- golden pickaxe
+- wooden axe
+- stone axe
+- iron axe
+- diamond axe
+- golden axe
+- wooden shovel
+- stone shovel
+- iron shovel
+- diamond shovel
+- golden shovel
+- wooden hoe
+- stone hoe
+- iron hoe
+- diamond hoe
+- golden hoe
 - flint and steel
+- bow
+- arrow
+- fishing rod
+- shears
+- shield
+- clock
+- compass
+- map
+- lead
 - name tag
 - saddle
-- shears
-- string
-- wheat
-- gunpowder
-- ender eye
-- blaze rod
-- ghast tear
-- nether wart
-- potion
-- experience bottle
-- map
-- heart of the sea
-- trident
+- horse armor
 - elytra
-- activated rail
-- air
-- anvil
-- beacon
-- bedrock
-- bone block
-- brewing stand
-- bricks
-- cactus
-- campfire
-- carved pumpkin
-- chain command block
-- chiseled quartz block
-- chiseled red sandstone
-- chiseled sandstone
-- clay
-- coal block
-- cocoa
-- command block
-- concrete
-- concrete powder
-- cracked stone bricks
-- cream stone
-- daylight detector
-- deadbush
-- diamond block
-- diorite
-- dirt path
-- dragon egg
-- dried kelp block
-- emerald block
-- enchanting table
-- end gateway
-- end portal
-- end portal frame
-- end rod
-- end stone
-- fletching table
-- frosted ice
-- glowstone
-- gold block
-- granite
-- grass path
-- grindstone
-- hard clay
-- honeycomb block
-- ice
-- iron block
-- jungle wood
-- lapis block
-- lectern
-- lever
-- light block
-- lit pumpkin
-- magma block
-- melon block
-- mob spawner
-- mossy stone bricks
-- mycelium
-- nether brick
-- nether gold ore
-- nether quartz ore
-- nether reactor core
-- nether wart block
-- observer
-- packed ice
-- petrified oak slab
-- pink concrete
-- podzol
-- polished andesite
-- polished diorite
-- polished granite
-- prismarine bricks
-- trapdoor
+- bucket
+- water bucket
+- lava bucket
+- milk bucket
+- glass bottle
+- potion
+- splash potion
+- lingering potion
+- enchanted book
+- ender pearl
+- eye of ender
+- chicken
+- cow
+- pig
+- sheep
+- wolf
+- ocelot
+- cat
+- horse
+- donkey
+- mule
+- rabbit
+- parrot
+- llama
+- fox
+- panda
+- bee
+- bat
+- mooshroom
+- squid
+- dolphin
+- fish
+- turtle
+- polar bear
+- iron golem
+- snow golem
+- villager
+- wandering trader
+- zombie
+- husk
+- drowned
+- skeleton
+- stray
+- wither skeleton
+- spider
+- cave spider
+- slime
+- magma cube
+- creeper
+- enderman
+- silverfish
+- blaze
+- ghast
+- shulker
+- guardian
+- elder guardian
+- witch
+- vex
+- evoker
+- pillager
